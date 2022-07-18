@@ -44,6 +44,7 @@ source .venv/bin/activate # Linux
 <b>Step 4.</b> Install dependencies and add virtual environment to the Python Kernel
 <pre>
 python -m pip install --upgrade pip
+pip install notebook
 pip install ipykernel
 python -m ipykernel install --user --name=venv
 </pre>
