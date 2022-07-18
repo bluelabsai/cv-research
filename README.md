@@ -26,3 +26,25 @@ PROJECT_DIR = Path(BASE_DIR, "project_research")
 </pre> 
 
 ## Local setup
+**Steps**
+<br />
+<b>Step 1.</b> Clone this repository: https://github.com/bluelabsai/cv-research
+<br/><br/>
+<b>Step 2.</b> Create a new virtual environment 
+<pre>
+python3 -m venv .venv
+</pre> 
+<br/>
+<b>Step 3.</b> Activate your virtual environment
+<pre>
+source .venv/bin/activate # Linux
+.\.venv\Scripts\activate # Windows 
+</pre>
+<br/>
+<b>Step 4.</b> Install dependencies and add virtual environment to the Python Kernel
+<pre>
+python -m pip install --upgrade pip
+pip install ipykernel
+python -m ipykernel install --user --name=venv
+</pre>
+<br/>
